@@ -93,6 +93,8 @@ add_one(4) * 3      # Evaluates to 15
 
 add_one(add_one(add_one(add_one(add_one(add_one(1))))))
 
+# Its 7, 1 + add_one x 6
+
 # @TASK: What do you think that evaluates to? And why? Give
 # it a go and find out.
 
@@ -101,6 +103,13 @@ add_one(add_one(add_one(add_one(add_one(add_one(1))))))
 
 # EXPRESSIONS PLAYGROUND BEGINS
 
+
+
+def mod_num(num):
+   return num * 14
+
+num = mod_num(5) - 1
+print(num)
 
 
 # EXPRESSIONS PLAYGROUND ENDS
